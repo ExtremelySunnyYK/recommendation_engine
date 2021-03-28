@@ -1,7 +1,12 @@
 import os
+import sys
 
+# sys.path.append(os.path.abspath(os.path.join(__file__, *[os.pardir] * 3)))
+print(os.getcwd())
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "prs_project.settings")
+# os.environ['DJANGO_SETTINGS_MODULE'] = 'prs_project.settings'
+
 
 import django
 from django.db.models import Count

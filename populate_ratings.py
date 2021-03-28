@@ -1,3 +1,5 @@
+""" Script to populate database with ratings"""
+
 import os
 import urllib.request
 import django

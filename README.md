@@ -112,6 +112,12 @@ Download the correct postgresql version for your operating system [here](https:/
 
 Use PostGreSQL’s admin tool pgadmin to create a database. Name it `moviegeek`. Write down which username and password you usd to create the database. You will use that information in two steps from now when you change the Django settings.
 
+or 
+
+```
+CREATE USER moviegeek WITH PASSWORD 'moviegeek';
+```
+
 #### Install the Python database driver 
 
 Once the PostGreSQL database is spinning, it’s time for the Python driver, which enables Django to talk with the 

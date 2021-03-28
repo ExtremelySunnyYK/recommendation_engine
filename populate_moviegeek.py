@@ -1,3 +1,5 @@
+"""Script to populate database with movies"""
+
 import os
 import urllib.request
 from tqdm import tqdm
