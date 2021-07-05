@@ -1,11 +1,5 @@
 # The MovieGEEK Installation Guide
 
-The MovieGEEK is a website implemented to accompany my book, Practical Recommender Systems. 
-It is used in the book to show how recommender systems work and how you can implement them. 
-The book describes how the algorithms work and provides more detail into how the site works.
-
-The website is not intended as a standalone tutorial or a plug-and-play website for you to install 
-and use for your own content. 
 
 ## Thanks!
 This site would not be working if it wasn’t for the [MovieTweetings](https://github.com/sidooms/MovieTweetings) 
